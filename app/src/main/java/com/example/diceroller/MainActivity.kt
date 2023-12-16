@@ -35,14 +35,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-/*@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}*/
-
 @Preview
 @Composable
 fun DiceRollerApp() {
@@ -50,14 +42,6 @@ fun DiceRollerApp() {
         .fillMaxSize()
         .wrapContentSize(Alignment.Center))
 }
-
-/*@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    DiceRollerTheme {
-        Greeting("Android")
-    }
-}*/
 
 @Composable
 fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
